@@ -1,0 +1,95 @@
+
+    .nav-bar{
+        width:100%;
+        display: flex;
+       
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin:auto;
+    }
+    .nav-bar a{
+        text-decoration: none;
+        color:rgb(10, 0, 0);
+        background-color:#ce898994;
+        height: 3vw;
+        width: 25vw;
+        border-radius: 20px;
+        padding-top: 2%;
+        padding-left: 10%;
+        padding-right: 1%;
+        font-family:poppins;
+        font-size: 22px;
+    }
+    .books{
+        background-image:url(images/new\ books.jpg) ;
+        height: 20vw;
+        width: 45%;
+        margin: auto;
+    }
+    .book-quote{
+        background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/tre.webp);
+        color: antiquewhite;
+        height: 10vw;
+        width: 45%;
+        font-size: 25px;
+        margin: auto;
+    }
+    .about-book{
+        display: flex;
+        margin: auto;
+        padding-top: 2%;
+        justify-content: center;
+    }
+
+    .page{
+        display: flex;
+        padding-bottom: 100px;
+    }
+    .understanding-quote{
+        width: 50%;
+        height: 52vw;
+        border-radius: 20px;
+        font-size: 20px;
+        margin: auto;
+        background-color: rgba(212, 206, 206, 0.664);
+        padding-left: 1%;
+        padding-right: 2%;
+        
+
+    }
+    .understanding-quote:hover{
+        transform: scale(1,1);
+        box-shadow: brown;
+        transition: ease-in-out;
+    }
+    .understanding-quote h1{
+        text-align: center;
+    }
+    .understanding-quote span{
+        color: rgb(8, 9, 10);
+    }
+    .next-books{
+        border-left: solid 1px black;
+        padding-left: 40px;
+        color: rgba(223, 133, 133, 0.664);
+        
+        
+    }
+    .form{
+        box-shadow: dimgray;
+        font-size: 25px;
+        width: 10%;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        background-color: rgba(223,133,133,0.664);
+        width: 98%;
+        padding: 20px;
+        gap: 200px;
+        font-size: 20px;
+    }
+    .icons{
+        justify-content: space-between;
+        gap: 60px;
+    }
